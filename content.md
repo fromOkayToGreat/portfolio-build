@@ -14,12 +14,12 @@ I strongly believe that no problem is too
 hard if you break it down into smaller
 pieces
 
-### My interests are: Software Engineering, AI, Mindfulness, Growth Mindset, Kindness, Health & Longevity, Learning, Writing, Reading, Music, Japanese, Korean, Science, and Philosophy.
+### Interests: Software Engineering, AI, Mindfulness, Growth Mindset, Kindness, Health & Longevity, Learning, Writing, Reading, Music, Japanese, Korean, Science, and Philosophy.
 
 ### Contact
 
 Phone: xxx-xxx-xxxx
-Email: fgramajo@msn.com
+Email: francisco@fromokaytogreat.com
 LinkedIn: linkedin.com/in/francisco-gramajo/
 GitHub: github.com/fromOkayToGreat
 

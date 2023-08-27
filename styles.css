@@ -24,6 +24,14 @@ html {
 
 body {
   min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: var(--fg-light);
+}
+
+/* storng */
+
+strong {
+  font-weight: 700;
 }
 
 /* responsive images/videos */
@@ -96,7 +104,7 @@ video {
 #experience,
 #projects {
   padding: var(--space-l); /* Employ Utopia's spacing */
-  font-size: var(--step-1); /* Using Utopia's fluid type scale */
+  font-size: var(--step-0); /* Using Utopia's fluid type scale */
 }
 
 .theme-dark #profile {
@@ -112,12 +120,6 @@ video {
       "projects";
   }
 } */
-
-body {
-  font-family: Arial, sans-serif;
-  font-size: var(--step-0);
-  color: var(--fg-light);
-}
 
 h1,
 h2,
