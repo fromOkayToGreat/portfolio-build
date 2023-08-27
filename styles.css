@@ -1,5 +1,4 @@
 /* makes sizing simpler */
-
 *,
 *::before,
 *::after {
@@ -70,6 +69,8 @@ video {
   --grid-max-width: 69.75rem;
   --grid-gutter: var(--space-s-l, clamp(1rem, calc(0.5rem + 2.51vw), 2.25rem));
   --grid-columns: 12;
+
+  --flow-space: var(--space-m);
 }
 
 /* Utility for dark theme */
@@ -81,17 +82,12 @@ video {
   --fg-light: hsl(300, 2%, 77%);
 }
 
-.u-container {
-  max-width: var(--grid-max-width);
-  padding-inline: var(--grid-gutter);
-  margin-inline: auto;
-}
-
 .u-grid {
   display: grid;
-  grid-template-areas:
-    "profile intro"
-    "experience projects";
+}
+
+.u-container {
+  max-width: var(--grid-max-width);
 }
 
 /* Blocks */
@@ -103,13 +99,11 @@ video {
   font-size: var(--step-1); /* Using Utopia's fluid type scale */
 }
 
-/* Exceptions for dark theme */
 .theme-dark #profile {
-  background-color: var(--bg-darker);
   padding: var(--space-xl); /* A larger space to make this section stand out */
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .u-grid {
     grid-template-areas:
       "profile"
@@ -117,10 +111,10 @@ video {
       "experience"
       "projects";
   }
-}
+} */
 
 body {
-  font-family: "Inter var";
+  font-family: Arial, sans-serif;
   font-size: var(--step-0);
   color: var(--fg-light);
 }
@@ -131,8 +125,6 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: var(--space-l);
-  margin-bottom: 0;
   color: var(--fg-lighter);
 }
 
