@@ -28,7 +28,7 @@ body {
   color: var(--fg-light);
 }
 
-/* storng */
+/* strong */
 
 strong {
   font-weight: 700;
@@ -103,23 +103,13 @@ video {
 #intro,
 #experience,
 #projects {
-  padding: var(--space-l); /* Employ Utopia's spacing */
-  font-size: var(--step-0); /* Using Utopia's fluid type scale */
+  padding: var(--space-l);
+  font-size: var(--step-0);
 }
 
 .theme-dark #profile {
   padding: var(--space-xl); /* A larger space to make this section stand out */
 }
-
-/* @media (max-width: 768px) {
-  .u-grid {
-    grid-template-areas:
-      "profile"
-      "intro"
-      "experience"
-      "projects";
-  }
-} */
 
 h1,
 h2,
@@ -136,6 +126,8 @@ h1 {
 
 h2 {
   font-size: var(--step-4);
+  border-bottom: 2px solid var(--fg-light);
+  padding-bottom: 10px;
 }
 
 h3 {
