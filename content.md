@@ -4,14 +4,6 @@
 
 > "I love developing well-designed, tested, and documented digital solutions that users love." - Francisco Gramajo
 
-## Table of Contents
-
-- [Introduction](#Introduction)
-- [Contact](#Contact)
-- [Skills](#Skills)
-- [Experience](#Experience)
-- [Education](#Education)
-
 ## Introduction
 
 As a passionate Full-Stack Software Engineer, I specialize in crafting software that delights users through positive and engaging experiences.
@@ -94,7 +86,7 @@ My mantra: "Solving big challenges, one micro-task at a time."
 
 #### Marketplace Manager at Eurotec 4seating.com | Dec 2015 - Nov 2020
 
-- Spiked YoY sales by 25% across multiple online platforms.
+- Spiked YoY sales by 25% across multiple online platforms- Amazon, eBay, Wayfair, Overstock, Rakuten, Houzz.
 - Scoped, reported, and dissected KPIs to drive data-driven strategies.
 - Collaborated with designers for a unified and SEO-optimized UX/UI.
 - Administered 200+ domains across diverse hosting platforms.
@@ -167,7 +159,7 @@ Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 • Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 • Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
-### Marcus Gerakos Website
+### Artists Websites
 
 • Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 • Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
