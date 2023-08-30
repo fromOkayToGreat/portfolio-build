@@ -1,49 +1,5 @@
-/* makes sizing simpler */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+/* Component CSS (C) */
 
-/* remove default spacing */
-/* force styling of type through styling, rather than elements */
-
-* {
-  margin: 0;
-  padding: 0;
-  font: inherit;
-}
-
-/* dark mode user-agent-styles */
-
-html {
-  color-scheme: dark light;
-}
-
-/* min body height */
-
-body {
-  min-height: 100vh;
-  font-family: Arial, sans-serif;
-  color: var(--fg-light);
-}
-
-/* strong */
-
-strong {
-  font-weight: 700;
-}
-
-/* responsive images/videos */
-img,
-picture,
-svg,
-video {
-  display: block;
-  max-width: 100%;
-}
-
-/* Utopia Variables */
 :root {
   --step--2: clamp(0.56rem, calc(0.72rem + -0.13vw), 0.69rem);
   --step--1: clamp(0.8rem, calc(0.84rem + -0.04vw), 0.83rem);
@@ -90,15 +46,37 @@ video {
   --fg-light: hsl(300, 2%, 77%);
 }
 
-.u-grid {
-  display: grid;
+/* Utility CSS (U) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 .u-container {
   max-width: var(--grid-max-width);
 }
 
-/* Blocks */
+.u-grid {
+  display: grid;
+}
+
+/* Block CSS (B) */
 #profile,
 #intro,
 #experience,
@@ -108,9 +86,10 @@ video {
 }
 
 #profile {
-  padding: var(--space-xl); /* A larger space to make this section stand out */
+  padding: var(--space-xl);
 }
 
+/* Exception CSS (E) */
 h1,
 h2,
 h3,
@@ -140,6 +119,18 @@ h4 {
 
 h5 {
   font-size: var(--step-1);
+}
+
+strong {
+  font-weight: 700;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
 }
 
 main > *:nth-child(1),
