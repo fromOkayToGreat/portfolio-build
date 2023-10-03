@@ -2,13 +2,15 @@
 
 ![Francisco Gramajo's Professional Profile Picture](http://via.placeholder.com/640x360)
 
-> "I love developing well-designed, tested, and documented digital solutions that users love." - Francisco Gramajo
-
 ## Introduction
 
-As a passionate Full-Stack Software Engineer, I specialize in crafting software that delights users through positive and engaging experiences.
+"Every solution I design prioritizes user satisfaction. Beyond code, I architect intuitive and joyful digital experiences. My work isn't just maintainable; it's clear, standard-driven, and built for collaboration."
 
-My mantra: "Solving big challenges, one micro-task at a time."
+### My Mantra: "Solving big challenges, one micro-task at a time"
+
+This mindset propels me to excel in leading teams, managing intricate projects, and staying agile in fast-paced environments."
+
+> "I've encapsulated this approach of turning daunting challenges into manageable tasks in my concise guide 'Decompose Tasks Effectively'.
 
 ### 😃 What Fuels Me
 
