@@ -5,27 +5,27 @@
 ### Table of Contents
 
 1. [Introduction](#introduction)
-   1. [My Mantra](#my-mantra)
-   2. [What Fuels Me](#😃-what-fuels-me)
-   3. [Let's Connect](#📞-lets-connect)
+   - [My Mantra](#my-mantra)
+   - [What Fuels Me](#😃-what-fuels-me)
+   - [Let's Connect](#📞-lets-connect)
 2. [Skillset](#skillset)
-   1. [Programming & Development](#programming--development)
-   2. [Project Management & Collaboration](#project-management--collaboration)
-   3. [E-Commerce](#e-commerce)
+   - [Programming & Development](#programming--development)
+   - [Project Management & Collaboration](#project-management--collaboration)
+   - [E-Commerce](#e-commerce)
 3. [Experience](#experience)
-   1. [Freelance Web Developer & Digital Solutions Consultant](#freelance-web-developer--digital-solutions-consultant--self-employed-oct-2023---present)
-   1. [Ecommerce Specialist at Grunt Style](#ecommerce-specialist-at-grunt-style--jan-2022---dec-2022)
-   1. [Marketplace Manager at Eurotec 4seating.com](#marketplace-manager-at-eurotec-4seatingcom--dec-2015---nov-2020)
-   1. [Network Administrator at Mobile NET & Expo Mobile](#network-administrator-at-mobile-net--expo-mobile--april-2014-–-november-2015)
-   1. [Volunteer Experience](#volunteer-experience)
+   - [Freelance Web Developer & Digital Solutions Consultant](#freelance-web-developer--digital-solutions-consultant--self-employed-oct-2023---present)
+   - [Ecommerce Specialist at Grunt Style](#ecommerce-specialist-at-grunt-style--jan-2022---dec-2022)
+   - [Marketplace Manager at Eurotec 4seating.com](#marketplace-manager-at-eurotec-4seatingcom--dec-2015---nov-2020)
+   - [Network Administrator at Mobile NET & Expo Mobile](#network-administrator-at-mobile-net--expo-mobile--april-2014-–-november-2015)
+   - [Volunteer Experience](#volunteer-experience)
 4. [Education](#🎓-education)
-5. [Projects (Coming Soon)](#projects-coming-soon)
-   1. [PromptFinder](#promptfinder)
-   2. [itisOverdue](#itisoverdue)
-   3. [Antropologia De Guatemala](#antropologia-de-guatemala)
-   4. [Collaborative Writing](#collaborative-writing)
-   5. [Portfolio](#portfolio)
-   6. [Artists Websites](#artists-websites)
+5. [Projects](#projects)
+   - [PromptFinder](#promptfinder)
+   - [itisOverdue](#itisoverdue)
+   - [Antropologia De Guatemala](#antropologia-de-guatemala)
+   - [Collaborative Writing](#collaborative-writing)
+   - [Portfolio](#portfolio)
+   - [Artists Websites](#artists-websites)
 
 ## Introduction
 
@@ -175,7 +175,7 @@ This mindset propels me to excel in leading teams, managing intricate projects, 
 - **BS in Information Technology**  
   Western Governors University, Nov 2020
 
-## Projects (Coming Soon)
+## Projects
 
 ### PromptFinder
 
