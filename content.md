@@ -2,12 +2,40 @@
 
 ![Francisco Gramajo's Professional Profile Picture](http://via.placeholder.com/640x360)
 
+### Table of Contents
+
+1. [Introduction](#introduction)
+   1. [My Mantra](#my-mantra)
+   2. [What Fuels Me](#what-fuels-me)
+   3. [Let's Connect](#lets-connect)
+2. [Skill Arsenal](#skill-arsenal)
+   1. [Programming Languages](#programming-languages)
+   2. [Front-End](#front-end)
+   3. [Back-End](#back-end)
+   4. [Deployment & Hosting](#deployment--hosting)
+   5. [Database Management](#database-management)
+   6. [Tools & Platforms](#tools--platforms)
+3. [Experience](#experience)
+   1. [Ecommerce Specialist at Grunt Style](#ecommerce-specialist-at-grunt-style)
+   2. [Marketplace Manager at Eurotec 4seating.com](#marketplace-manager-at-eurotec-4seatingcom)
+   3. [Network Administrator at Mobile NET & Expo Mobile](#network-administrator-at-mobile-net--expo-mobile)
+   4. [Volunteer Experience](#volunteer-experience)
+4. [Education](#education)
+5. [Projects (Coming Soon)](#projects-coming-soon)
+   1. [PromptFinder](#promptfinder)
+   2. [itisOverdue](#itisoverdue)
+   3. [Antropologia De Guatemala](#antropologia-de-guatemala)
+   4. [Collaborative Writing](#collaborative-writing)
+   5. [Portfolio](#portfolio)
+   6. [Artists Websites](#artists-websites)
+
 ## Introduction
 
 "Every solution I design prioritizes user satisfaction. Beyond code, I architect intuitive and joyful digital experiences. My work isn't just maintainable; it's clear, standard-driven, and built for collaboration."
 
-### My Mantra: "Solving big challenges, one micro-task at a time"
+### My Mantra
 
+"Solving big challenges, one micro-task at a time"
 This mindset propels me to excel in leading teams, managing intricate projects, and staying agile in fast-paced environments."
 
 > "I've encapsulated this approach of turning daunting challenges into manageable tasks in my concise guide 'Decompose Tasks Effectively'.
@@ -31,50 +59,79 @@ This mindset propels me to excel in leading teams, managing intricate projects, 
 🌐 I invite you to [connect with me on LinkedIn](https://linkedin.com/in/francisco-gramajo/) for collaborative opportunities and mutual growth.
 👨‍💻 Curious about my coding style? [Check out my GitHub](https://github.com/fromOkayToGreat)
 
-### 🛠 Skill Arsenal
+## **Skillset**
 
-### Programming Languages
+### **Programming & Development**
 
-- **JavaScript**
-- **Java**
-- **Python**
-- **Rust**
-- **HTML**
-- **CSS**
+- `Programming Languages`
+  - JavaScript
+  - Java
+  - Python
+  - Rust
+  - HTML
+  - CSS
+- `Frameworks & Libraries`
+  - React
+  - Next.js
+  - Tailwind CSS
+  - Svelte
+  - Node.js
+- `Cloud Platforms`
+  - Vercel
+  - Google Cloud
+- `Databases`
+  - MySQL
+  - SQLite
+  - PostgreSQL
+- `Version Control`
+  - Git
+  - GitHub
+- `Integrated Development Environments (IDEs)`
+  - VS Code
+  - Vim
+- `Design Tools`
+  - Figma
+  - Adobe Creative Suite
+- `Containerization`
+  - Docker
 
-### Front-End
+---
 
-- **React**
-- **Svelte**
-- **Next.js**
-- **Tailwind CSS**
+### **Project Management & Communication**
 
-### Back-End
+- `Project Management Tools`
+  - GitHub
+  - Asana
+  - Notion
+  - Jira
+- `Messaging`
+  - Discord
+  - Slack
+  - Zoom
+  - Google Chat
+- `Office Suites`
+  - MS Office
+  - Google Workspace
+- `Spoken Languages`
+  - Fluent in English
+  - Fluent in Spanish
 
-- **Node.js**
+---
 
-### Deployment & Hosting
+### **E-Commerce**
 
-- Vercel
-- Google Cloud Platform
+- Shopify
+- Amazon Seller and Vendor
+- Magento
+- WordPress
+- eBay
+- Overstock
+- Wayfair
+- Houzz
 
-### Database Management
+---
 
-- **PostgreSQL**
-- **SQL Server**
-- **MySQL**
-
-### Tools & Platforms
-
-- **Git**
-- **GitHub**
-- **ChatGPT**
-- **Figma**
-- **Shopify**
-- **Docker**
-- **VS Code**
-
-## 💼 Work & Volunteering Experience
+## 💼 Experience
 
 #### Ecommerce Specialist at Grunt Style | Jan 2022 - Dec 2022
 
