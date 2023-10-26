@@ -13,13 +13,15 @@
    - [Project Management & Collaboration](#project-management--collaboration)
    - [E-Commerce](#e-commerce)
 3. [Experience](#experience)
+
    - [Freelance Web Developer & Digital Solutions Consultant](#freelance-web-developer--digital-solutions-consultant--self-employed-oct-2023---present)
    - [Ecommerce Specialist at Grunt Style](#ecommerce-specialist-at-grunt-style--jan-2022---dec-2022)
    - [Marketplace Manager at Eurotec 4seating.com](#marketplace-manager-at-eurotec-4seatingcom--dec-2015---nov-2020)
    - [Network Administrator at Mobile NET & Expo Mobile](#network-administrator-at-mobile-net--expo-mobile--april-2014-–-november-2015)
    - [Volunteer Experience](#volunteer-experience)
-4. [Education](#🎓-education)
-5. [Projects](#projects)
+   - [Education](#🎓-education)
+
+4. [Projects](#projects)
    - [PromptFinder](#promptfinder)
    - [itisOverdue](#itisoverdue)
    - [Antropologia De Guatemala](#antropologia-de-guatemala)
