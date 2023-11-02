@@ -2,12 +2,40 @@
 
 ![Francisco Gramajo's Professional Profile Picture](http://via.placeholder.com/640x360)
 
+### Table of Contents
+
+1. [Introduction](#introduction)
+   - [My Mantra](#my-mantra)
+   - [What Fuels Me](#😃-what-fuels-me)
+   - [Let's Connect](#📞-lets-connect)
+2. [Skillset](#skillset)
+   - [Programming & Development](#programming--development)
+   - [Project Management & Collaboration](#project-management--collaboration)
+   - [E-Commerce](#e-commerce)
+3. [Experience](#experience)
+
+   - [Freelance Web Developer & Digital Solutions Consultant](#freelance-web-developer--digital-solutions-consultant--self-employed-oct-2023---present)
+   - [Ecommerce Specialist at Grunt Style](#ecommerce-specialist-at-grunt-style--jan-2022---dec-2022)
+   - [Marketplace Manager at Eurotec 4seating.com](#marketplace-manager-at-eurotec-4seatingcom--dec-2015---nov-2020)
+   - [Network Administrator at Mobile NET & Expo Mobile](#network-administrator-at-mobile-net--expo-mobile--april-2014-–-november-2015)
+   - [Volunteer Experience](#volunteer-experience)
+   - [Education](#🎓-education)
+
+4. [Projects](#projects)
+   - [PromptFinder](#promptfinder)
+   - [itisOverdue](#itisoverdue)
+   - [Antropologia De Guatemala](#antropologia-de-guatemala)
+   - [Collaborative Writing](#collaborative-writing)
+   - [Portfolio](#portfolio)
+   - [Artists Websites](#artists-websites)
+
 ## Introduction
 
 "Every solution I design prioritizes user satisfaction. Beyond code, I architect intuitive and joyful digital experiences. My work isn't just maintainable; it's clear, standard-driven, and built for collaboration."
 
-### My Mantra: "Solving big challenges, one micro-task at a time"
+### My Mantra
 
+"Solving big challenges, one micro-task at a time"
 This mindset propels me to excel in leading teams, managing intricate projects, and staying agile in fast-paced environments."
 
 > "I've encapsulated this approach of turning daunting challenges into manageable tasks in my concise guide 'Decompose Tasks Effectively'.
@@ -31,60 +59,93 @@ This mindset propels me to excel in leading teams, managing intricate projects, 
 🌐 I invite you to [connect with me on LinkedIn](https://linkedin.com/in/francisco-gramajo/) for collaborative opportunities and mutual growth.
 👨‍💻 Curious about my coding style? [Check out my GitHub](https://github.com/fromOkayToGreat)
 
-### 🛠 Skill Arsenal
+## **Skillset**
 
-### Programming Languages
+### **Programming & Development**
 
-- **JavaScript**
-- **Java**
-- **Python**
-- **Rust**
-- **HTML**
-- **CSS**
+- `Programming Languages`
+  - JavaScript
+  - Java
+  - Python
+  - Rust
+  - HTML
+  - CSS
+- `Frameworks & Libraries`
+  - React
+  - Next.js
+  - Tailwind CSS
+  - Svelte
+  - Node.js
+- `Cloud Platforms`
+  - Vercel
+  - Google Cloud
+- `Databases`
+  - MySQL
+  - SQLite
+  - PostgreSQL
+- `Version Control`
+  - Git
+  - GitHub
+- `Integrated Development Environments (IDEs)`
+  - VS Code
+  - Vim
+- `Design Tools`
+  - Figma
+  - Adobe Creative Suite
+- `Containerization`
+  - Docker
 
-### Front-End
+---
 
-- **React**
-- **Svelte**
-- **Next.js**
-- **Tailwind CSS**
+### **Project Management & Collaboration**
 
-### Back-End
+- `Project Management Tools`
+  - GitHub
+  - Asana
+  - Notion
+  - Jira
+- `Messaging`
+  - Discord
+  - Slack
+  - Zoom
+  - Google Chat
+- `Office Suites`
+  - MS Office
+  - Google Workspace
+- `Spoken Languages`
+  - Fluent in English
+  - Fluent in Spanish
 
-- **Node.js**
+---
 
-### Deployment & Hosting
+### **E-Commerce**
 
-- Vercel
-- Google Cloud Platform
+- Shopify
+- Amazon Seller and Vendor
+- Magento
+- WordPress
+- eBay
+- Overstock
+- Wayfair
+- Houzz
 
-### Database Management
+---
 
-- **PostgreSQL**
-- **SQL Server**
-- **MySQL**
+## Experience
 
-### Tools & Platforms
+#### Freelance Web Developer & Digital Solutions Consultant | Self-Employed, Oct 2023 - Present
 
-- **Git**
-- **GitHub**
-- **ChatGPT**
-- **Figma**
-- **Shopify**
-- **Docker**
-- **VS Code**
-
-## 💼 Work & Volunteering Experience
+- Delivered tailored web solutions to diverse clients, enhancing their online presence and meeting business objectives.
+- Specialized in creating intuitive, scalable, and maintainable websites using technologies such as HTML, CSS, JavaScript, React, and Next.js.
+- Led end-to-end project lifecycles, from initial consultation and requirements gathering to design, development, testing, and deployment, ensuring timely delivery and client satisfaction.
+- Managed domain hosting, security measures, and ensured accessibility compliance with modern web standards and Search Engine Optimization best practices.
 
 #### Ecommerce Specialist at Grunt Style | Jan 2022 - Dec 2022
 
 - Pioneered an eBay account, implementing effective selling strategies.
-- Crafted enticing product listings, augmented by professional photography.
-- Orchestrated shipping processes, setting customer expectations.
-- Resolved customer issues, boosting overall satisfaction.
-- Maintained inventory integrity, preventing stockouts and overstock.
-
-🌟 **Highlights**: Sustained a 100% positive feedback rating throughout the account's life.
+- Crafted enticing web content such as product listing details, enhance imagery, SEO, and keyword research.
+- Orchestrated shipping processes and inventory integrity, preventing stockouts or overstock, and meeting customer expectations.
+- Sustained a 100% positive feedback rating throughout the account's life.
 
 #### Marketplace Manager at Eurotec 4seating.com | Dec 2015 - Nov 2020
 
@@ -93,78 +154,75 @@ This mindset propels me to excel in leading teams, managing intricate projects, 
 - Collaborated with designers for a unified and SEO-optimized UX/UI.
 - Administered 200+ domains across diverse hosting platforms.
 - Forecasted sales and product demand, briefing the E-Commerce Director.
-
-🌟 **Highlights**: Cleared 95% of clearance inventory, freeing up warehouse space and enabling a YoY increase in sales exceeding $20 million.
+- Cleared 95% of clearance inventory, freeing up warehouse space and enabling a YoY increase in sales exceeding $20 million.
 
 #### Network Administrator at Mobile NET & Expo Mobile | April 2014 – November 2015
 
-- Maintained and deployed IT infrastructure, including servers and networks.
+- Maintained and deployed IT infrastructure, including workstations, servers, and networks.
 - Resolved back-end issues, scrutinizing logs and API requests.
 - Compiled daily managerial reports using Excel and SQL.
-- Coordinated the relocation of all IT assets in October 2014.
-
-🌟 **Highlights**: Successfully relocated the company's entire IT infrastructure, from servers to CCTV, with zero downtime.
+- Successfully relocated the company's entire IT infrastructure, from servers to CCTV, with zero downtime.
 
 ### Volunteer Experience
 
 #### Lead Software Engineer at itisOverdue | April 2023 - Present
 
 - Spearheaded development and maintenance of the new organization's online presence.
+- Manages domain hosting, web analytics, and ensures 508 and WCAG compliance standards.
 - Planning, implementing, managing, monitoring, and upgrading itisOvedue's website.
-- Responding to and troubleshooting all website issues.
-- Managed the software development lifecycle via Asana and GitHub.
+- Launched a data-driven website with an emphasis on maintainability and actionable analytics for better decision making.
 
 ### 🎓 Education
 
 - **BS in Information Technology**  
   Western Governors University, Nov 2020
 
-## Projects (Coming Soon)
+## Projects
 
 ### PromptFinder
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
 ### itisOverdue
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
 ### Antropologia De Guatemala
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
 ### Collaborative Writing
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
 ### Portfolio
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
 
 ### Artists Websites
 
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
-Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
-• Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos evenietzz ipsa sed animi natus.
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
+- Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eveniet ipsa sed animi natus.
