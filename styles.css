@@ -34,9 +34,11 @@
   --grid-gutter: var(--space-s-l, clamp(1rem, calc(0.5rem + 2.51vw), 2.25rem));
   --grid-columns: 12;
 
-  --flow-space: var(--space-m);
+  --flow-space: var(--space-l);
 
   --clr-lightest: hsl(0, 0%, 97%);
+  --clr-lighter: hsl(0, 0%, 87%);
+  --clr-light: hsl(0, 0%, 77%);
   --clr-darkest: hsl(0, 0%, 7%);
 }
 
@@ -63,7 +65,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   background: var(--clr-lightest);
   color: var(--clr-darkest);
 }
@@ -75,7 +77,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--fg-lighter);
+  color: var(--clr-darkest);
 }
 
 h1 {
@@ -84,8 +86,6 @@ h1 {
 
 h2 {
   font-size: var(--step-4);
-  border-bottom: 2px solid var(--fg-light);
-  padding-bottom: 10px;
 }
 
 h3 {
@@ -110,6 +110,11 @@ svg,
 video {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+main > * {
+  margin-block-start: var(--space-l);
 }
 
 /* WRAPPER */
@@ -119,7 +124,7 @@ video {
   grid-gap: var(--grid-gutter);
   max-width: var(--grid-max-width);
   margin: 0 auto;
-  padding: var(--flow-space);
+  padding: var(--space-s);
 }
 
 /* HEADER */
@@ -129,7 +134,6 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--space-m);
 }
 
 /* NAVIGATION */
@@ -229,4 +233,62 @@ button:active {
   display: inline-block;
   margin-inline-start: 0.5rem;
   content: "+";
+}
+
+/* INTRODUCTION + HERO */
+
+.hero {
+  text-align: center; /* Centers the text */
+  position: relative;
+}
+
+/* add a little spacing for the hero children */
+.hero > * {
+  margin-block-start: var(--space-m);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#introduction,
+#my-mantra,
+#profile-pic {
+  max-width: 46ch;
+  margin-inline: auto;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: both; /* keeps the end state after animation */
+}
+
+/*  delay the mantra fade-in so it comes after the introduction */
+#my-mantra {
+  animation-delay: 1s; /* starts this animation after the introduction is done */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #introduction,
+  #my-mantra,
+  #profile-pic {
+    animation: none;
+    transition: none;
+  }
+}
+
+/* PROFILE PIC */
+
+#profile-pic {
+  width: 100%;
+  max-width: 800px;
+  margin-inline: auto;
+  height: auto;
+  border-radius: 50%;
+  border: 1px solid var(--clr-light);
+  overflow: hidden;
+  box-shadow: 0 70px 63px -60px #000000;
 }
