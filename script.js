@@ -75,3 +75,33 @@ document.addEventListener("click", (e) => {
     toggleMenu(currentSubMenu, true);
   }
 });
+
+// Card flip
+document.addEventListener("DOMContentLoaded", (event) => {
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+  checkboxes.forEach((checkbox) => {
+    checkbox.addEventListener("change", (e) => {
+      const card = checkbox.nextElementSibling;
+      const frontFace = card.querySelector(".front");
+      const backFace = card.querySelector(".back");
+
+      // Check if the card is flipped to the back
+      if (checkbox.checked) {
+        frontFace.style.opacity = "0";
+        setTimeout(() => {
+          frontFace.style.visibility = "hidden";
+          backFace.style.visibility = "visible";
+          backFace.style.opacity = "1";
+        }, 400); // Delay the visibility change by 0.4s
+      } else {
+        backFace.style.opacity = "0";
+        setTimeout(() => {
+          backFace.style.visibility = "hidden";
+          frontFace.style.visibility = "visible";
+          frontFace.style.opacity = "1";
+        }, 400); // Delay the visibility change by 0.4s
+      }
+    });
+  });
+});
