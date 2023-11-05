@@ -117,6 +117,12 @@ main > * {
   margin-block-start: var(--space-l);
 }
 
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
 /* WRAPPER */
 
 .wrapper {
