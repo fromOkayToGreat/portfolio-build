@@ -75,7 +75,7 @@ body {
 
 p {
   margin-block-end: var(--space-m);
-  line-height: var(--space-l);
+  line-height: var(--space-m);
 }
 
 /* Exception CSS (E) */
