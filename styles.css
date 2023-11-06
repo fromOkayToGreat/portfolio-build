@@ -428,3 +428,51 @@ dd:hover {
 article {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* EXPERIENCE */
+
+#experience h3 {
+  margin-bottom: var(--space-s);
+}
+
+details {
+  background-color: var(--clr-lighter);
+  border-left: 4px solid var(--clr-accent);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin: -10px -10px 10px -10px;
+  padding: 10px;
+  user-select: none;
+}
+
+summary:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--clr-accent);
+}
+
+summary::after {
+  content: "▼";
+  float: right;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+time {
+  background-color: var(--clr-lightest);
+  color: var(--clr-darker);
+  font-size: var(--step--1);
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+}
