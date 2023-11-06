@@ -117,6 +117,12 @@ main > * {
   margin-block-start: var(--space-l);
 }
 
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
 /* WRAPPER */
 
 .wrapper {
@@ -362,4 +368,21 @@ input[type="checkbox"]:focus + label .inside {
   transform: rotateY(180deg);
 }
 .card .front {
+}
+
+/* LETS CONNECT */
+
+#lets-connect {
+  /* align the items center and text center */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#lets-connect > ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-block-start: var(--space-s);
 }
