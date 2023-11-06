@@ -476,3 +476,62 @@ time {
   border-radius: 4px;
   font-weight: bold;
 }
+
+/* PROJECTS */
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+#projects h2 {
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+#projects article {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects article h3 {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+#projects article ul {
+  padding: 15px;
+  margin: 0;
+  list-style-type: none;
+}
+
+#projects article img {
+  width: 100%; /* Responsive images */
+  max-width: 250px;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without stretching */
+  align-self: center;
+}
+
+/* Additional styles for aesthetics */
+#projects ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Ensures that the image wraps when there is not enough room */
+@media (max-width: 300px) {
+  #projects article {
+    flex-direction: column;
+  }
+}
+
+/* AUTHOR */
