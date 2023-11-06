@@ -251,6 +251,11 @@ button:active {
   content: "+";
 }
 
+.sub-menu li {
+  font-size: var(--step--1);
+  line-height: var(--space-s);
+}
+
 /* INTRODUCTION + HERO */
 
 .hero {
@@ -291,6 +296,7 @@ button:active {
 #my-mantra {
   color: var(--clr-darker);
   font-style: italic;
+  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -382,8 +388,10 @@ input[type="checkbox"]:focus + label .inside {
 }
 .card .back {
   transform: rotateY(180deg);
+  padding: 10px;
 }
 .card .front {
+  padding: 10px;
 }
 
 /* LETS CONNECT */
@@ -536,4 +544,12 @@ time {
   }
 }
 
-/* AUTHOR */
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+}
