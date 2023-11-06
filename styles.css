@@ -286,6 +286,12 @@ button:active {
   animation-delay: 1s; /* starts this animation after the introduction is done */
 }
 
+#my-mantra h3,
+#my-mantra {
+  color: var(--clr-darker);
+  font-style: italic;
+}
+
 @media (prefers-reduced-motion: reduce) {
   #introduction,
   #my-mantra,
@@ -299,7 +305,7 @@ button:active {
 
 #profile-pic {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
   margin-inline: auto;
   height: auto;
   border-radius: 50%;
