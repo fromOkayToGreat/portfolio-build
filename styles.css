@@ -69,7 +69,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   background: var(--clr-lightest);
   color: var(--clr-darkest);
 }
@@ -86,6 +86,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Montserrat", sans-serif;
   color: var(--clr-darkest);
 }
 
@@ -296,7 +297,6 @@ button:active {
 #my-mantra {
   color: var(--clr-darker);
   font-style: italic;
-  font-family: Georgia, Times, "Times New Roman", serif;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -432,11 +432,6 @@ dd {
 dt:hover,
 dd:hover {
   color: var(--clr-accent);
-}
-
-/* Example of a web-friendly font */
-article {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* EXPERIENCE */
