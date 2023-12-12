@@ -43,6 +43,17 @@
   --clr-darker: hsl(0, 0%, 37%);
   --clr-darkest: hsl(0, 0%, 7%);
   --clr-accent: hsl(205, 89%, 49%);
+
+  /* Background Colors */
+  --clr-background-primary: var(--clr-lightest);
+  --clr-background-secondary: var(--clr-lighter);
+  --clr-background-tertiary: var(--clr-light);
+  /* Text Colors */
+  --clr-text-primary: var(--clr-dark);
+  --clr-text-secondary: var(--clr-darker);
+  --clr-text-tertiary: var(--clr-darkest);
+  /* Accent Element Color */
+  --clr-accent-element: var(--clr-accent);
 }
 
 /* Utility for dark theme */
@@ -440,6 +451,7 @@ dd:hover {
 }
 
 details {
+  background-color: var(--clr-lighter);
   border-left: 4px solid var(--clr-accent);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
