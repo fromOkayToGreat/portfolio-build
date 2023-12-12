@@ -49,9 +49,9 @@
   --clr-background-secondary: var(--clr-lighter);
   --clr-background-tertiary: var(--clr-light);
   /* Text Colors */
-  --clr-text-primary: var(--clr-dark);
+  --clr-text-tertiary: var(--clr-dark);
   --clr-text-secondary: var(--clr-darker);
-  --clr-text-tertiary: var(--clr-darkest);
+  --clr-text-primary: var(--clr-darkest);
   /* Accent Element Color */
   --clr-accent-element: var(--clr-accent);
 }
