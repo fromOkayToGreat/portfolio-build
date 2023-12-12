@@ -37,7 +37,6 @@
   --flow-space: var(--space-l);
 
   --clr-lightest: hsl(0, 0%, 97%);
-  --clr-lighterer: hsl(0, 0%, 90%);
   --clr-lighter: hsl(0, 0%, 87%);
   --clr-light: hsl(0, 0%, 77%);
   --clr-dark: hsl(0, 0%, 47%);
@@ -441,7 +440,6 @@ dd:hover {
 }
 
 details {
-  background-color: var(--clr-lighterer);
   border-left: 4px solid var(--clr-accent);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
