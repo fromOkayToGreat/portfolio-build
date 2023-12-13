@@ -56,8 +56,17 @@
   --clr-accent-element: var(--clr-accent);
 }
 
-/* Utility for dark theme */
-.theme-dark {
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Background Colors */
+    --clr-background-primary: var(--clr-darkest);
+    --clr-background-secondary: var(--clr-darker);
+    --clr-background-tertiary: var(--clr-dark);
+    /* Text Colors */
+    --clr-text-tertiary: var(--clr-light);
+    --clr-text-secondary: var(--clr-lighter);
+    --clr-text-primary: var(--clr-lightest);
+  }
 }
 
 /* Utility CSS (U) */
@@ -73,15 +82,11 @@
   font: inherit;
 }
 
-html {
-  color-scheme: light;
-}
-
 body {
   min-height: 100vh;
   font-family: "Lato", sans-serif;
-  background: var(--clr-lightest);
-  color: var(--clr-darkest);
+  background-color: var(--clr-background-primary);
+  color: var(--clr-text-primary);
 }
 
 p {
@@ -97,7 +102,6 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", sans-serif;
-  color: var(--clr-darkest);
 }
 
 h1 {
@@ -206,7 +210,7 @@ button:active {
   width: auto;
   margin: 0;
   padding: 1rem 1.5rem;
-  background: white;
+  background: var(--clr-background-secondary);
   z-index: 1;
 }
 
@@ -230,19 +234,19 @@ button:active {
   margin-block-end: 1ch;
   margin-inline-end: 1ch;
   padding: 0.3rem 0.5rem;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid var(--clr-text-primary);
+  color: var(--clr-text-primary);
   text-decoration: none;
-  background: white;
+  background-color: var(--clr-background-primary);
 }
 
 .main-nav a:hover,
 .main-nav a:focus,
 .menu-trigger:hover,
 .menu-trigger:focus {
-  background: black;
-  color: white;
-  border-color: black;
+  background: var(--clr-text-primary);
+  color: var(--clr-background-primary);
+  border-color: var(--clr-text-secondary);
 }
 
 .main-nav ul ul {
@@ -305,7 +309,7 @@ button:active {
 
 #my-mantra h3,
 #my-mantra {
-  color: var(--clr-darker);
+  color: var(--clr-text-secondary);
   font-style: italic;
 }
 
@@ -326,7 +330,7 @@ button:active {
   margin-inline: auto;
   height: auto;
   border-radius: 50%;
-  border: 1px solid var(--clr-light);
+  border: 1px solid var(--clr-text-tertiary);
   overflow: hidden;
   box-shadow: 0 70px 63px -60px #000000;
 }
@@ -362,7 +366,7 @@ input[type="checkbox"]:checked + label .inside {
   transform: rotateY(180deg);
 }
 input[type="checkbox"]:focus + label .inside {
-  border: 3px solid black;
+  border: 3px solid var(--clr-text-primary);
 }
 .card {
   width: 100%;
@@ -383,7 +387,7 @@ input[type="checkbox"]:focus + label .inside {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  border: 1px solid var(--clr-lighter);
+  border: 1px solid var(--clr-background-secondary);
 }
 .card .back,
 .card .front {
@@ -419,7 +423,7 @@ input[type="checkbox"]:focus + label .inside {
 /* SKILLSET  */
 
 #skillset article h3 {
-  color: var(--clr-accent);
+  color: var(--clr-accent-element);
 }
 
 dl {
@@ -428,7 +432,6 @@ dl {
 }
 
 dt {
-  color: var(--clr-darkest);
   font-weight: bold;
   padding-top: 0.5rem;
 }
@@ -436,12 +439,11 @@ dt {
 dd {
   margin: 0;
   padding: 0.25rem 0;
-  color: var(--clr-darker);
 }
 
 dt:hover,
 dd:hover {
-  color: var(--clr-accent);
+  color: var(--clr-accent-element);
 }
 
 /* EXPERIENCE */
@@ -451,8 +453,8 @@ dd:hover {
 }
 
 details {
-  background-color: var(--clr-lighter);
-  border-left: 4px solid var(--clr-accent);
+  background-color: var(--clr-background-secondary);
+  border-left: 4px solid var(--clr-accent-element);
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
@@ -470,7 +472,7 @@ summary {
 
 summary:focus {
   outline: none;
-  box-shadow: 0 0 0 2px var(--clr-accent);
+  box-shadow: 0 0 0 2px var(--clr-accent-element);
 }
 
 summary::after {
@@ -484,8 +486,8 @@ details[open] summary::after {
 }
 
 time {
-  background-color: var(--clr-lightest);
-  color: var(--clr-darker);
+  background-color: var(--clr-background-primary);
+  color: var(--clr-text-secondary);
   font-size: var(--step--1);
   padding: 3px;
   border-radius: 4px;
@@ -507,8 +509,8 @@ time {
 }
 
 #projects article {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
+  background: var(--clr-background-primary);
+  border: 1px solid var(--clr-background-secondary);
   border-radius: 8px;
   overflow: hidden;
   display: flex;
