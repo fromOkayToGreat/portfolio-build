@@ -105,3 +105,71 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
   });
 });
+
+// Theme Toggle
+
+const themeToggle = document.getElementById("theme-toggle");
+
+// Apply the saved theme when the page loads
+window.addEventListener("load", function () {
+  const savedTheme = localStorage.getItem("theme");
+
+  if (savedTheme === "dark") {
+    document.body.classList.add("dark-theme");
+    themeToggle.src = "image/lightmode.png";
+  } else if (savedTheme === "light") {
+    document.body.classList.remove("dark-theme");
+    themeToggle.src = "image/darkmode.png";
+  }
+});
+
+// Define light and dark color schemes
+const lightScheme = {
+  "--clr-background-primary": "hsl(0, 0%, 97%)",
+  "--clr-background-secondary": "hsl(0, 0%, 87%)",
+  "--clr-background-tertiary": "hsl(0, 0%, 77%)",
+  "--clr-text-tertiary": "hsl(0, 0%, 47%)",
+  "--clr-text-secondary": "hsl(0, 0%, 37%)",
+  "--clr-text-primary": "hsl(0, 0%, 7%)",
+};
+
+const darkScheme = {
+  "--clr-background-primary": "hsl(0, 0%, 7%)",
+  "--clr-background-secondary": "hsl(0, 0%, 37%)",
+  "--clr-background-tertiary": "hsl(0, 0%, 47%)",
+  "--clr-text-tertiary": "hsl(0, 0%, 77%)",
+  "--clr-text-secondary": "hsl(0, 0%, 87%)",
+  "--clr-text-primary": "hsl(0, 0%, 97%)",
+};
+
+// Apply the color scheme based on the user's system preference
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches
+) {
+  applyColorScheme(darkScheme);
+  themeToggle.src = "image/lightmode.png";
+} else {
+  applyColorScheme(lightScheme);
+  themeToggle.src = "image/darkmode.png";
+}
+
+themeToggle.addEventListener("click", function () {
+  if (document.body.classList.contains("dark-theme")) {
+    applyColorScheme(lightScheme);
+    themeToggle.src = "image/darkmode.png";
+    localStorage.setItem("theme", "light");
+  } else {
+    applyColorScheme(darkScheme);
+    themeToggle.src = "image/lightmode.png";
+    localStorage.setItem("theme", "dark");
+  }
+  document.body.classList.toggle("dark-theme");
+});
+
+// Function to apply a color scheme
+function applyColorScheme(scheme) {
+  for (let color in scheme) {
+    document.documentElement.style.setProperty(color, scheme[color]);
+  }
+}

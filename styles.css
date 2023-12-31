@@ -271,6 +271,15 @@ button:active {
   line-height: var(--space-s);
 }
 
+/* THEM TOGGLE ICON */
+
+#theme-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
 /* INTRODUCTION + HERO */
 
 .hero {
